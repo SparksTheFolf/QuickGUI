@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -16,6 +15,7 @@ public class GUI implements ActionListener {
 	private JLabel label;
 	private JFrame frame;
 	private JPanel panel;
+	private static JButton button;
 	
 	public GUI() {
 		frame = new JFrame();
@@ -54,6 +54,44 @@ public class GUI implements ActionListener {
 		label.setText("Number of Clicks: " + count);
 		
 		
+	
+	
+	if (count == 10) {
+		
+		count++;
+		System.out.println("Count 10+");
+		label.setText("10++ Achived");
+
+		
+	}
+	
+	if (count == 20) {
+		
+		count++;
+		System.out.println("Count 20+");
+		label.setText("20++ Achived");
+
+		
+	}
+	
+	if (count == 30) {
+		
+		count++;
+		System.out.println("Count 30+");
+		label.setText("30++ Achived");
+
+		
+	}
+	
+	if (count == 40) {
+		
+		count++;
+		System.out.println("Count 40+");
+		label.setText("40++ Achived");
+
+		
+	}
+	
 	}
 
 }
